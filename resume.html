@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - B V Dathatreya Sastry</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .resume-container {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      display: grid;
+      grid-template-columns: 32% 68%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* SIDEBAR */
+
+    .sidebar {
+      background: #1f2937;
+      color: white;
+      padding: 30px;
+    }
+
+    .profile h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    .profile h2 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #d1d5db;
+      margin-bottom: 30px;
+    }
+
+    .sidebar section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #4b5563;
+      padding-bottom: 8px;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .skill-group {
+      margin-bottom: 18px;
+    }
+
+    .skill-group h4 {
+      font-size: 15px;
+      margin-bottom: 5px;
+      color: #93c5fd;
+    }
+
+    /* MAIN CONTENT */
+
+    .main-content {
+      padding: 35px;
+    }
+
+    .main-content section {
+      margin-bottom: 35px;
+    }
+
+    .main-content h3 {
+      font-size: 22px;
+      color: #111827;
+      margin-bottom: 18px;
+      border-bottom: 2px solid #d1d5db;
+      padding-bottom: 8px;
+    }
+
+    .education-item,
+    .project {
+      margin-bottom: 22px;
+    }
+
+    .education-item h4,
+    .project h4 {
+      font-size: 17px;
+      color: #2563eb;
+      margin-bottom: 5px;
+    }
+
+    .education-item p {
+      font-size: 15px;
+    }
+
+    .education-item span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .project ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .project li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 768px) {
+      .resume-container {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar,
+      .main-content {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume-container">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="profile">
+        <h1>B V DATHATREYA SASTRY</h1>
+        <h2>Computer Science Student (AI & ML)</h2>
+      </div>
+
+      <section class="contact">
+        <h3>CONTACT</h3>
+        <p>📞 9573911390</p>
+        <p>✉️ dathatreya.14@gmail.com</p>
+        <p>🔗 github.com/Dathatreya14</p>
+      </section>
+
+      <section class="skills">
+        <h3>SKILLS</h3>
+
+        <div class="skill-group">
+          <h4>Programming Languages</h4>
+          <p>Python, Java, C, SQL</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Web & Backend</h4>
+          <p>HTML, CSS, Django, Flask, REST APIs</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>AI & Machine Learning</h4>
+          <p>
+            Artificial Intelligence, Machine Learning,
+            Deep Learning, CNN, Model Training,
+            Data Preprocessing, Feature Extraction,
+            Image Processing
+          </p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Frameworks & Libraries</h4>
+          <p>TensorFlow, Keras, EasyOCR, pyttsx3, gTTS</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Core Concepts</h4>
+          <p>
+            Data Structures, Algorithms,
+            Object-Oriented Programming (OOP),
+            Problem Solving
+          </p>
+        </div>
+
+      </section>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <section>
+        <h3>ABOUT ME</h3>
+
+        <p>
+          Computer Science student specializing in Artificial Intelligence
+          and Machine Learning with hands-on experience in Python, SQL,
+          and AI-based project development. Strong problem-solving skills,
+          quick learner, and effective team collaborator focused on building
+          practical, real-world solutions.
+        </p>
+      </section>
+
+      <section>
+        <h3>EDUCATION</h3>
+
+        <div class="education-item">
+          <h4>HYDERABAD INSTITUTE OF TECHNOLOGY AND MANAGEMENT</h4>
+          <p>B-Tech: Computer Science (CSM)</p>
+          <span>2022 - 2026 | CGPA: 7.9</span>
+        </div>
+
+        <div class="education-item">
+          <h4>SRI CHAITANYA JR KALASALA</h4>
+          <p>Intermediate</p>
+          <span>2020 - 2022 | 88%</span>
+        </div>
+
+        <div class="education-item">
+          <h4>SRI CHAITANYA TECHNO SCHOOL</h4>
+          <p>SSC</p>
+          <span>2020 | 10 GPA</span>
+        </div>
+      </section>
+
+      <section>
+        <h3>PROJECTS</h3>
+
+        <div class="project">
+          <h4>Echo Talk – Text to Speech & Text Extractor</h4>
+
+          <ul>
+            <li>Developed an offline OCR-TTS system converting images and PDFs to speech.</li>
+            <li>Implemented EasyOCR and TTS engines for accessibility-focused use cases.</li>
+            <li>Technologies: Python, EasyOCR, pyttsx3, gTTS, Tkinter, PyPDF2</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h4>AI and Software Development Projects</h4>
+
+          <ul>
+            <li>Developed multiple software applications to strengthen AI and ML fundamentals.</li>
+            <li>Built a BMI & Body Fat Calculator with accurate health metric computation.</li>
+            <li>Designed a GUI-based Tic-Tac-Toe game with interactive gameplay logic.</li>
+            <li>Led a Speaker Identification project using speech feature extraction.</li>
+            <li>Applied problem-solving and algorithmic thinking across all projects.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h4>AGROSHIELD AI – Intelligent Crop Protection</h4>
+
+          <ul>
+            <li>Developed a CNN-based plant disease detection system.</li>
+            <li>Implemented image preprocessing and feature extraction.</li>
+            <li>Integrated the CNN model with a Django-based web app.</li>
+            <li>Enabled real-time disease diagnosis using cloud inference.</li>
+            <li>Technologies: Python, CNN, Django, SQL, Image Processing</li>
+          </ul>
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
